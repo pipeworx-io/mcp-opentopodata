@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-opentopodata",
-  "version": "0.1.0",
-  "description": "Open Topo Data — global elevation lookups (multiple DEM datasets)",
+  "version": "0.1.1",
+  "description": "Open Topo Data MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-opentopodata": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "opentopodata"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-opentopodata"
+    "url": "git+https://github.com/pipeworx-io/mcp-opentopodata.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-d7e2ff4688508d0c7e89781666cbd54d0f91723a758d4043088be9930b37cd16",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
