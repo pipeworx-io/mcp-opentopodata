@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-opentopodata",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Open Topo Data MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-4f34053b936f8ebe28459fdcfe92dbd59708f96ed28defa742126c49855c7f9e",
-    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
+    "sourceHash": "v1-7360e2aa0f1e08903466e6169dbbc11dbf0c00c57ce7bd59fefdbc362319b23f",
+    "sourceCommit": "f54ad77e789f27fe393978f9c080b5b18c87bb4f"
   }
 }
