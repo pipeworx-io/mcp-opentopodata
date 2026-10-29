@@ -1,0 +1,41 @@
+[
+  {
+    "name": "elevation",
+    "description": "Elevation at points. Up to 100 locations per request.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "locations": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "description": "Array of {lat, lon} (up to 100). Single object also accepted."
+        },
+        "dataset": {
+          "type": "string",
+          "description": "Default \"srtm90m\"."
+        },
+        "samples": {
+          "type": "number",
+          "description": "Optional: interpolate N samples between first and last point."
+        },
+        "format": {
+          "type": "string",
+          "description": "json (default) | geojson"
+        }
+      },
+      "required": [
+        "locations"
+      ]
+    }
+  },
+  {
+    "name": "datasets",
+    "description": "List available DEM datasets.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  }
+]

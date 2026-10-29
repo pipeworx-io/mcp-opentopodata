@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/opentopodata",
   "title": "Opentopodata",
   "description": "Open Topo Data MCP.",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/opentopodata",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-opentopodata",
