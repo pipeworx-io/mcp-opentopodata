@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-opentopodata",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Open Topo Data MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "opentopodata",
     "gatewaySlug": "opentopodata",
-    "sourceHash": "v1-4df114503587920a106d7650603d0fd6769b7f4424904b2b7834189b402dc588",
-    "sourceCommit": "b2c4383545bb35171d0ada2beb1c9c7168ea175e"
+    "sourceHash": "v1-10f0ee3da4f158d1e262f3945afacee188adbd3c836969e332bc9792cfcf9e42",
+    "sourceCommit": "243a06a6ca2d3b6075325f3b66a1468d0a2eb603"
   }
 }
